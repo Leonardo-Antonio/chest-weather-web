@@ -4,6 +4,7 @@
   margin: 0.4rem 0;
   border-radius: 999px;
   background: #597e9396;
+  color: #fff;
 }
 
 .input::placeholder {
@@ -23,4 +24,13 @@
 
 .card {
   width: 20rem;
+}
+
+.input {
+  border: 1px solid #597e9396;
+  width: 100%;
+  margin: 0.4rem 0;
+  border-radius: 999px;
+  background: #597e9396;
+  color: #fff;
 }
