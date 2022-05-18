@@ -1,0 +1,26 @@
+.input {
+  border: 1px solid #597e9396;
+  width: 100%;
+  margin: 0.4rem 0;
+  border-radius: 999px;
+  background: #597e9396;
+}
+
+.input::placeholder {
+    color: rgb(214, 207, 207);
+}
+
+.container_login {
+  background-image: url("/bg.jpg");
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 20rem;
+}
