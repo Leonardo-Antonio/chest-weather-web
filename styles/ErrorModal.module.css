@@ -1,0 +1,19 @@
+.modal {
+  position: fixed;
+  top: 0;
+
+  background-color: #fff;
+  width: 20%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.list {
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .modal {
+    width: 90%;
+  }
+}

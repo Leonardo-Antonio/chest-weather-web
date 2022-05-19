@@ -1,0 +1,20 @@
+.float {
+  position: fixed;
+  bottom: 0;
+  background: rgb(36, 199, 228);
+  padding: 0.8rem;
+  margin: 0.8rem;
+  border-radius: 50px;
+}
+
+.card {
+  background-color: rgb(76, 172, 132);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 640px) {
+  .card {
+    width: 100%;
+  }
+}

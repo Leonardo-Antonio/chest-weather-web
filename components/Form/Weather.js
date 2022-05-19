@@ -4,8 +4,10 @@ import styles from "../../styles/Weather.module.css";
 import { useState } from "react";
 import { IconWeather } from "../Icons/IconWeather";
 import { Loading } from "../Icons/Loading";
+import { HistoryFixed } from "../Icons/HistoryFixed";
 
 export const WeatherForm = () => {
+
   const {
     setDataForm,
     dataForm,
@@ -100,6 +102,8 @@ export const WeatherForm = () => {
       <section className={styles.icon_floting}>
         {loading ? <Loading /> : <IconWeather data={weatherPlaceCode} />}
       </section>
+
+      <HistoryFixed />
     </div>
   );
 };
