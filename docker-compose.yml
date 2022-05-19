@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  web-chestweather:
+    image: leo2001/web-chestweather:v1.0.1
+    restart: always
+    ports:
+      - 3000:3000
